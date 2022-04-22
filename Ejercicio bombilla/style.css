@@ -1,13 +1,24 @@
 .container{
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    display: flex;
 }
 body{
     background-color: black;
+    overflow: hidden;
+}
+
+.bodyy{
+    background-image: linear-gradient(to top, #a8edea, #fed6e3 100%);
 }
 
 .interruptorOn{
     src:("./bon.jpg"); 
+}
+
+.container2{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    display: none;
 }
